@@ -1,0 +1,14 @@
+FORMULA ANZIANI v1.3  -  di Alberto Seminerio / Il Capone Quiz
+=============================================================
+COSA CARICARE (nuovo progetto Vercel + nuovo repository GitHub "formulaanziani"):
+  tutto il contenuto della cartella (index.html, og-image.jpg, favicon, fonts/, robots.txt, sitemap.xml, vercel.json).
+  Indirizzo previsto: https://formulaanziani.vercel.app (se diverso, dimmelo e rifaccio la build).
+AGGIORNAMENTI: da ora basta ricaricare index.html (e i file cambiati).
+PRIMA DI TUTTO: aggiungi le regole di FIREBASE_REGOLE.txt (altrimenti niente classifica).
+GIOCO: 6 personaggi, 4 difficolta (facile, medio, difficile, estremo), gara contro 5 rivali, 3 corsie,
+  ostacoli fermi e in movimento (auto, camion, moto, carretti siciliani), punti = km x 500 - 50 per ogni scontro,
+  classifiche mondiali Top 10 per personaggio+difficolta e totale.
+  v1.1: tutti i mezzi oscillano da lato a lato (sempre con un varco libero), piu veloci a ogni difficolta;
+  sotto START c e il pulsante "Gioca a Super Capone" (supercapone.vercel.app).
+  v1.2: musica di sottofondo "Corsia di Corsa" (corsia-di-corsa.mp3, in ripetizione, parte al primo tocco; il pulsante audio la silenzia). Ricorda di caricare anche questo file.
+  v1.3: audio veri. Cartella audio/ (da caricare su GitHub insieme a index.html): musica "Veloce come un'auto d'epoca" (volume basso), traffico di sottofondo durante la gara, suono del VIA dopo il 3-2-1, 6 suoni di scontro che si alternano (e ogni tanto si sentono anche senza scontro). Il vecchio corsia-di-corsa.mp3 non serve piu: puoi toglierlo dal repository.

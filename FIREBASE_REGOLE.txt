@@ -8,4 +8,7 @@ Dentro  "arcade": { ... }  accanto a "supercapone" aggiungi il blocco "formulaan
   "top":   { ".read": true, "$k": { ".write": true } }
 }
 
+DA v1.9 (classifica MENSILE): NON serve cambiare nulla. Le classifiche ora stanno in top/<AAAA-MM>/... (es. top/2026-11/tot) e le regole sopra ("$k": .write true) valgono gia' per tutti i mesi: ogni mese nasce da solo, vuoto.
+I vecchi dati top/c_* e top/tot (prima di novembre) restano li' inutilizzati: puoi cancellarli dalla console se vuoi.
+
 Se non le aggiungi il gioco funziona lo stesso, ma classifiche, partite e statistiche non vengono salvate.

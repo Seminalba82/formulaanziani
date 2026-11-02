@@ -1,4 +1,4 @@
-FORMULA ANZIANI v1.3  -  di Alberto Seminerio / Il Capone Quiz
+FORMULA ANZIANI v1.9  -  di Alberto Seminerio / Il Capone Quiz
 =============================================================
 COSA CARICARE (nuovo progetto Vercel + nuovo repository GitHub "formulaanziani"):
   tutto il contenuto della cartella (index.html, og-image.jpg, favicon, fonts/, robots.txt, sitemap.xml, vercel.json).
@@ -12,3 +12,10 @@ GIOCO: 6 personaggi, 4 difficolta (facile, medio, difficile, estremo), gara cont
   sotto START c e il pulsante "Gioca a Super Capone" (supercapone.vercel.app).
   v1.2: musica di sottofondo "Corsia di Corsa" (corsia-di-corsa.mp3, in ripetizione, parte al primo tocco; il pulsante audio la silenzia). Ricorda di caricare anche questo file.
   v1.3: audio veri. Cartella audio/ (da caricare su GitHub insieme a index.html): musica "Veloce come un'auto d'epoca" (volume basso), traffico di sottofondo durante la gara, suono del VIA dopo il 3-2-1, 6 suoni di scontro che si alternano (e ogni tanto si sentono anche senza scontro). Il vecchio corsia-di-corsa.mp3 non serve piu: puoi toglierlo dal repository.
+  v1.4: il pulsante rosso ora dice "GIOCA ANCHE A SUPER CAPONE".
+  v1.5: scelta 2D/3D sulla schermata del titolo (selettore VISTA). Il 3D e' il file 3d.html (da caricare insieme a index.html). La scelta si ricorda: al ritorno si riparte dalla vista scelta. Il link da condividere resta quello classico; senza WebGL il 3D non parte.
+  Solo per aggiornare dalla v1.4: basta ricaricare index.html e 3d.html.
+  v1.6: sotto il pulsante di Super Capone c'e' il pulsante blu "GIOCA ANCHE A IL CAPONE SALSA E MAIONESE" (https://il-capone-salsa-e-maionese.vercel.app). La schermata del titolo ora scorre se lo schermo e' piccolo.
+  v1.7-1.8: i due pulsanti verso gli altri giochi sono diventati un solo pulsante "PROVA ANCHE GLI ALTRI GIOCHI DEL CAPONE" (https://giochi.ilcaponequiz.win/).
+  v1.9: CLASSIFICA MENSILE. Ogni mese ha la sua Top 10 (novembre 2026 e' il primo): il 1° del mese, ora di Roma, si riparte da zero. Nella schermata CLASSIFICHE c'e' il titolo del mese con i giorni che mancano; dal mese dopo compare anche il tasto per vedere la classifica finale del mese scorso. Nessuna modifica alle regole Firebase.
+  Per aggiornare dalla v1.6: ricarica index.html e 3d.html (o tutto il contenuto della cartella).

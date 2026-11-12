@@ -1,8 +1,8 @@
-FORMULA ANZIANI v1.9  -  di Alberto Seminerio / Il Capone Quiz
+FORMULA ANZIANI v2.0  -  di Alberto Seminerio / Il Capone Quiz
 =============================================================
 COSA CARICARE (nuovo progetto Vercel + nuovo repository GitHub "formulaanziani"):
   tutto il contenuto della cartella (index.html, og-image.jpg, favicon, fonts/, robots.txt, sitemap.xml, vercel.json).
-  Indirizzo previsto: https://formulaanziani.vercel.app (se diverso, dimmelo e rifaccio la build).
+  Indirizzo previsto: https://formulaanziani.ilcaponequiz.win (se diverso, dimmelo e rifaccio la build).
 AGGIORNAMENTI: da ora basta ricaricare index.html (e i file cambiati).
 PRIMA DI TUTTO: aggiungi le regole di FIREBASE_REGOLE.txt (altrimenti niente classifica).
 GIOCO: 6 personaggi, 4 difficolta (facile, medio, difficile, estremo), gara contro 5 rivali, 3 corsie,
@@ -16,6 +16,7 @@ GIOCO: 6 personaggi, 4 difficolta (facile, medio, difficile, estremo), gara cont
   v1.5: scelta 2D/3D sulla schermata del titolo (selettore VISTA). Il 3D e' il file 3d.html (da caricare insieme a index.html). La scelta si ricorda: al ritorno si riparte dalla vista scelta. Il link da condividere resta quello classico; senza WebGL il 3D non parte.
   Solo per aggiornare dalla v1.4: basta ricaricare index.html e 3d.html.
   v1.6: sotto il pulsante di Super Capone c'e' il pulsante blu "GIOCA ANCHE A IL CAPONE SALSA E MAIONESE" (https://il-capone-salsa-e-maionese.vercel.app). La schermata del titolo ora scorre se lo schermo e' piccolo.
-  v1.7-1.8: i due pulsanti verso gli altri giochi sono diventati un solo pulsante "PROVA ANCHE GLI ALTRI GIOCHI DEL CAPONE" (https://giochi.ilcaponequiz.win/).
+  v1.7-1.8: i due pulsanti verso gli altri giochi sono diventati un solo pulsante "PROVA ANCHE GLI ALTRI GIOCHI DEL CAPONE" (https://salagiochi.ilcaponequiz.win/).
   v1.9: CLASSIFICA MENSILE. Ogni mese ha la sua Top 10 (novembre 2026 e' il primo): il 1° del mese, ora di Roma, si riparte da zero. Nella schermata CLASSIFICHE c'e' il titolo del mese con i giorni che mancano; dal mese dopo compare anche il tasto per vedere la classifica finale del mese scorso. Nessuna modifica alle regole Firebase.
   Per aggiornare dalla v1.6: ricarica index.html e 3d.html (o tutto il contenuto della cartella).
+  v2.0: NUOVO 3D (solo 3d.html; il 2D non cambia). Mondo 3D vero: carrozzelle e personaggi modellati, auto e camion 3D con fari, templi, mandorli in fiore, fontana, lampioni, mare e Valle dei Templi sullo sfondo, salite e discese, ombre, giornata che passa dal pomeriggio al tramonto alla notte con la luna, scintille, polvere, petali e coriandoli all'arrivo. La qualita' si adatta da sola ai telefoni lenti. Per aggiornare dalla v1.9: ricarica index.html e 3d.html.
